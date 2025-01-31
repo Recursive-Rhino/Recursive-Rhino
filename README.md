@@ -2,5 +2,5 @@
 - 👀 I’m interested in java and Web Development.
 - 🌱 I’m currently Pursuing my B-Tech(CSE) 1st year;
 - 💞️ I’m looking to collaborate on a Project.
-- 📫 @the_dealinar My insta Handle.
+- 📫 @the_deadlinar My insta Handle.
 - feel Free To DM me.
