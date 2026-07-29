@@ -11,7 +11,7 @@
 
 - 🌱 I’m currently learning Machine Learning and other programming languages
 
-- 📫 How to reach me **smruti1234qwerty@gmail.com**
+- 📫 How to reach me **smrutiranjan2965@gmail.com**
 
 - ⚡ Fun fact :- Food and Music🎵 are the reasons to live.
 
