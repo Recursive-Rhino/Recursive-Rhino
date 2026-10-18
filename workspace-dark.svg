@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 750" width="900" height="750">
+    <defs>
+        <linearGradient id="bg-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#141420" />
+            <stop offset="100%" stop-color="#2D1B4E" />
+        </linearGradient>
+        <linearGradient id="window-bg-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1E1E1E" />
+            <stop offset="100%" stop-color="#121212" />
+        </linearGradient>
+        <filter id="shadow">
+            <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#000000" flood-opacity="0.5" />
+        </filter>
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="4" result="coloredBlur" />
+            <feMerge>
+                <feMergeNode in="coloredBlur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+
+    <!-- Desktop Background -->
+    <rect width="900" height="750" fill="url(#bg-dark)" />
+
+    <!-- Main IDE Window -->
+    <rect x="50" y="40" width="800" height="580" rx="12" fill="url(#window-bg-dark)" filter="url(#shadow)" stroke="#3E3E42" stroke-width="1" />
+
+    <!-- Top Title Bar -->
+    <path d="M 50 52 a 12 12 0 0 1 12 -12 h 776 a 12 12 0 0 1 12 12 v 28 h -800 z" fill="#2D2D30" />
+    <circle cx="75" cy="60" r="6" fill="#FF5F56" />
+    <circle cx="95" cy="60" r="6" fill="#FFBD2E" />
+    <circle cx="115" cy="60" r="6" fill="#27C93F" />
+    <text x="450" y="65" fill="#9D9D9D" font-family="&#39;SF Mono&#39;, Consolas, &#39;Courier New&#39;, monospace" font-size="13" text-anchor="middle">Workspace.java</text>
+
+    <!-- Line Highlight -->
+    <rect x="51" y="405" width="798" height="22" fill="#ffffff" fill-opacity="0.08" />
+
+    <!-- Code Content -->
+    <g font-family="&#39;SF Mono&#39;, Consolas, &#39;Courier New&#39;, monospace" font-size="14">
+        <!-- Line Numbers -->
+        <text x="95" y="100" fill="#6272A4" text-anchor="end">
+            <tspan x="95" dy="0">1</tspan>
+            <tspan x="95" dy="20">2</tspan>
+            <tspan x="95" dy="20">3</tspan>
+            <tspan x="95" dy="20">4</tspan>
+            <tspan x="95" dy="20">5</tspan>
+            <tspan x="95" dy="20">6</tspan>
+            <tspan x="95" dy="20">7</tspan>
+            <tspan x="95" dy="20">8</tspan>
+            <tspan x="95" dy="20">9</tspan>
+            <tspan x="95" dy="20">10</tspan>
+            <tspan x="95" dy="20">11</tspan>
+            <tspan x="95" dy="20">12</tspan>
+            <tspan x="95" dy="20">13</tspan>
+            <tspan x="95" dy="20">14</tspan>
+            <tspan x="95" dy="20">15</tspan>
+            <tspan x="95" dy="20">16</tspan>
+            <tspan x="95" dy="20">17</tspan>
+            <tspan x="95" dy="20">18</tspan>
+            <tspan x="95" dy="20">19</tspan>
+            <tspan x="95" dy="20">20</tspan>
+            <tspan x="95" dy="20">21</tspan>
+            <tspan x="95" dy="20">22</tspan>
+            <tspan x="95" dy="20">23</tspan>
+            <tspan x="95" dy="20">24</tspan>
+        </text>
+
+        <!-- Java Code -->
+        <text x="120" y="100" fill="#F8F8F2">
+            <tspan x="120" dy="0"><tspan fill="#FF79C6">public class</tspan> <tspan fill="#8BE9FD">Workspace</tspan> {</tspan>
+            <tspan x="120" dy="20"></tspan>
+            <tspan x="150" dy="20"><tspan fill="#FF79C6">private static final</tspan> <tspan fill="#8BE9FD">String</tspan> NAME = <tspan fill="#F1FA8C">"Smruti Ranjan Nayak"</tspan>;</tspan>
+            <tspan x="150" dy="20"><tspan fill="#FF79C6">private static final</tspan> <tspan fill="#8BE9FD">String</tspan> ROLE = <tspan fill="#F1FA8C">"Java and AI Developer"</tspan>;</tspan>
+            <tspan x="150" dy="20"><tspan fill="#FF79C6">private static final</tspan> <tspan fill="#8BE9FD">String</tspan> COLLEGE = <tspan fill="#F1FA8C">"GIET University, B.Tech CSE"</tspan>;</tspan>
+            <tspan x="150" dy="20"><tspan fill="#FF79C6">private static final</tspan> <tspan fill="#8BE9FD">String</tspan> PROJECT = <tspan fill="#F1FA8C">"Recall - RAG Platform"</tspan>;</tspan>
+            <tspan x="120" dy="20"></tspan>
+            <tspan x="150" dy="20"><tspan fill="#FF79C6">private static final</tspan> <tspan fill="#8BE9FD">String</tspan>[] SKILLS = {</tspan>
+            <tspan x="180" dy="20"><tspan fill="#F1FA8C">"Java"</tspan>, <tspan fill="#F1FA8C">"Spring Boot"</tspan>, <tspan fill="#F1FA8C">"Spring AI"</tspan>, <tspan fill="#F1FA8C">"Hibernate"</tspan>,</tspan>
+            <tspan x="180" dy="20"><tspan fill="#F1FA8C">"PostgreSQL"</tspan>, <tspan fill="#F1FA8C">"PgVector"</tspan>, <tspan fill="#F1FA8C">"MySQL"</tspan>, <tspan fill="#F1FA8C">"MongoDB"</tspan>,</tspan>
+            <tspan x="180" dy="20"><tspan fill="#F1FA8C">"RAG with Google Gemini"</tspan>,</tspan>
+            <tspan x="180" dy="20"><tspan fill="#F1FA8C">"n8n workflow automation"</tspan>,</tspan>
+            <tspan x="180" dy="20"><tspan fill="#F1FA8C">"Python"</tspan>, <tspan fill="#F1FA8C">"OpenCV"</tspan>, <tspan fill="#F1FA8C">"React.js"</tspan></tspan>
+            <tspan x="150" dy="20">};</tspan>
+            <tspan x="120" dy="20"></tspan>
+            <tspan x="150" dy="20"><tspan fill="#FF79C6">public static void</tspan> <tspan fill="#50FA7B">main</tspan>(<tspan fill="#8BE9FD">String</tspan>[] args) {</tspan>
+            <tspan x="180" dy="20"><tspan fill="#8BE9FD">System</tspan>.out.<tspan fill="#50FA7B">println</tspan>(<tspan fill="#F1FA8C">"Hi, I'm "</tspan> + NAME + <tspan fill="#F1FA8C">", "</tspan> + ROLE + <tspan fill="#F1FA8C">"."</tspan>);</tspan>
+            <tspan x="180" dy="20"><tspan fill="#8BE9FD">System</tspan>.out.<tspan fill="#50FA7B">println</tspan>(<tspan fill="#F1FA8C">"Studying at "</tspan> + COLLEGE);</tspan>
+            <tspan x="180" dy="20"><tspan fill="#8BE9FD">System</tspan>.out.<tspan fill="#50FA7B">println</tspan>(<tspan fill="#F1FA8C">"Currently building: "</tspan> + PROJECT);</tspan>
+            <tspan x="180" dy="20"><tspan fill="#FF79C6">for</tspan> (<tspan fill="#8BE9FD">String</tspan> skill : SKILLS) {</tspan>
+            <tspan x="210" dy="20"><tspan fill="#8BE9FD">System</tspan>.out.<tspan fill="#50FA7B">println</tspan>(<tspan fill="#F1FA8C">" * "</tspan> + skill);</tspan>
+            <tspan x="180" dy="20">}</tspan>
+            <tspan x="150" dy="20">}</tspan>
+            <tspan x="120" dy="20">}</tspan>
+        </text>
+    </g>
+
+    <!-- Bottom Status Bar -->
+    <path d="M 50 590 h 800 v 18 a 12 12 0 0 1 -12 12 h -776 a 12 12 0 0 1 -12 -12 z" fill="#282828" stroke="#3E3E42" stroke-width="1" />
+    <text x="65" y="609" fill="#9D9D9D" font-family="&#39;SF Mono&#39;, Consolas, &#39;Courier New&#39;, monospace" font-size="12">Line 17, Column 9</text>
+    <text x="835" y="609" fill="#9D9D9D" font-family="&#39;SF Mono&#39;, Consolas, &#39;Courier New&#39;, monospace" font-size="12" text-anchor="end">Java UTF-8 LF</text>
+
+    <!-- Desktop App Dock -->
+    <rect x="300" y="650" width="300" height="70" rx="20" fill="#1C1C1E" fill-opacity="0.8" stroke="#3A3A3C" stroke-width="1" filter="url(#shadow)" />
+    <rect x="315" y="662" width="45" height="45" rx="12" fill="#0A84FF" />
+    <rect x="372" y="662" width="45" height="45" rx="12" fill="#30D158" />
+    <rect x="429" y="662" width="45" height="45" rx="12" fill="#FFD60A" />
+    <rect x="486" y="662" width="45" height="45" rx="12" fill="#BF5AF2" />
+    <rect x="543" y="662" width="45" height="45" rx="12" fill="#FF453A" />
+</svg>
