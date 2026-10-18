@@ -23,43 +23,6 @@ Third-year B.Tech CSE student at GIET University. I build Java backends and AI t
 
 <br>
 
-## The code behind the window
-
-The picture above comes from a real file, [`Workspace.java`](Workspace.java). Change the name or the skills in that file and the output changes with it.
-
-```java
-public class Workspace {
-
-    private static final String NAME = "Smruti Ranjan Nayak";
-    private static final String ROLE = "Java and AI Developer";
-    private static final String COLLEGE = "GIET University, B.Tech CSE";
-    private static final String PROJECT = "DeepResearcher";
-
-    private static final String[] SKILLS = {
-        "Java", "Spring Boot", "Spring AI", "Hibernate",
-        "PostgreSQL", "PgVector", "MySQL", "MongoDB",
-        "RAG with Google Gemini",
-        "n8n workflow automation",
-        "Python", "OpenCV", "React.js"
-    };
-
-    public static void main(String[] args) {
-        System.out.println("Hi, I'm " + NAME + ", " + ROLE + ".");
-        System.out.println("Studying at " + COLLEGE);
-        System.out.println("Currently building: " + PROJECT);
-        for (String skill : SKILLS) {
-            System.out.println("  * " + skill);
-        }
-    }
-}
-```
-
-It needs Java 11 or newer to run:
-
-```bash
-java Workspace.java
-```
-
 ## Projects
 
 | Project | What it does |
