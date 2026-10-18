@@ -1,62 +1,84 @@
-<h1 align="center">Hi 👋, I'm Smruti Ranjan Nayak</h1>
-<h3 align="center">Student at GIET University🌟.</h3>
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="workspace-dark.svg">
+  <img alt="Workspace.java open in a macOS style window, listing Smruti Ranjan Nayak's name and skills" src="workspace-light.svg" width="100%">
+</picture>
+
+<br><br>
+
+# Hi, I'm Smruti Ranjan Nayak
+
+Third-year B.Tech CSE student at GIET University. I build Java backends and AI tools, mostly with Spring Boot, retrieval-augmented generation and workflow automation.
 
 <br>
 
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)](https://openjdk.org)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org)
+[![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)](https://n8n.io)
+[![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=googlegemini&logoColor=white)](https://ai.google.dev)
+
+</div>
 
 <br>
 
-<p><img align="right" src="https://github.com/Adam-pw/Adam-pw/blob/main/animation_500_kxa883sd.gif" alt="adam-pw" /></p>
+## The code behind the window
 
+The picture above comes from a real file, [`Workspace.java`](Workspace.java). Change the name or the skills in that file and the output changes with it.
 
-- 🌱 I’m currently learning Machine Learning and other programming languages
+```java
+public class Workspace {
 
-- 📫 How to reach me **smrutiranjan2965@gmail.com**
+    private static final String NAME = "Smruti Ranjan Nayak";
+    private static final String ROLE = "Java and AI Developer";
+    private static final String COLLEGE = "GIET University, B.Tech CSE";
+    private static final String PROJECT = "DeepResearcher";
 
-- ⚡ Fun fact :- Food and Music🎵 are the reasons to live.
+    private static final String[] SKILLS = {
+        "Java", "Spring Boot", "Spring AI", "Hibernate",
+        "PostgreSQL", "PgVector", "MySQL", "MongoDB",
+        "RAG with Google Gemini",
+        "n8n workflow automation",
+        "Python", "OpenCV", "React.js"
+    };
 
-<br>
+    public static void main(String[] args) {
+        System.out.println("Hi, I'm " + NAME + ", " + ROLE + ".");
+        System.out.println("Studying at " + COLLEGE);
+        System.out.println("Currently building: " + PROJECT);
+        for (String skill : SKILLS) {
+            System.out.println("  * " + skill);
+        }
+    }
+}
+```
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="https://www.linkedin.com/in/smruti-ranjan-nayak-/" target="blank"><img align="center"
-      src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
-      alt="adam pithewan" height="30" width="40" /></a>
- <a href="https://x.com/Smruti_Ranjan29" target="blank"><img align="center"
-      src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg"
-      alt="adampithewan" height="30" width="40" /></a>
-</p>
+It needs Java 11 or newer to run:
 
-<br>
+```bash
+java Workspace.java
+```
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"><a href="https://www.cprogramming.com/" target="_blank"
-    rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"
-      alt="c" width="40" height="40" /> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
-      alt="cplusplus" width="40" height="40" /> </a> <a href="https://www.w3schools.com/css/" target="_blank"
-    rel="noreferrer"> <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3"
-      width="40" height="40" /> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-      alt="html5" width="40" height="40" /> </a> <a href="https://www.adobe.com/in/products/illustrator.html"
-    target="_blank" rel="noreferrer"> <img
-      src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40"
-      height="40" /> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40"
-      height="40" /> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"
-    rel="noreferrer"> <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-      alt="javascript" width="40" height="40" /> </a> <a href="https://kotlinlang.org" target="_blank" rel="noreferrer">
-  </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
-      alt="mysql" width="40" height="40" /> </a> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
-      alt="nodejs" width="40" height="40" /> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer">
-     <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop"
-      width="40" height="40" /> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python"
-      width="40" height="40" /> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
-      alt="react" width="40" height="40" /> </a> 
+## Projects
+
+| Project | What it does |
+|---|---|
+| [Recall](https://github.com/Recursive-Rhino/Recall) | Document question answering with RAG. Spring Boot, Spring AI and Google Gemini, with PostgreSQL and PgVector for semantic search |
+| [Email Reply Extension for Chrome](https://github.com/Recursive-Rhino/Email-Reply-Extension-For-Chrome) | A Chrome extension that reads the Gmail thread you are replying to and inserts an AI-written reply from a Spring Boot backend |
+| [AI Deep Research Automation](https://github.com/Recursive-Rhino/AI-deep-research-automation) | An n8n workflow that researches a topic on the web in several rounds and writes the report into Notion |
+| [MoneyManager](https://github.com/Recursive-Rhino/MoneyManager_Project) | A finance tracker in Spring Boot with JWT login, BCrypt password hashing and email verification |
+
+## Experience and certifications
+
+- AI/ML Intern at CTTC, Bhubaneswar (June to July 2025). Built a face recognition attendance system in Python and OpenCV with about 95% accuracy.
+- Networking Virtual Intern at EduSkills, supported by Zscaler (January to March 2026).
+- Certified by Oracle University in AI Foundations and in Agentic AI Foundations, and by RapidMiner in data engineering.
+
+## Find me
+
+| | |
+|---|---|
+| LinkedIn | [linkedin.com/in/smruti-ranjan-nayak-](https://linkedin.com/in/smruti-ranjan-nayak-) |
+| GitHub | [github.com/Recursive-Rhino](https://github.com/Recursive-Rhino) |
+| Email | [smrutiranjan2965@gmail.com](mailto:smrutiranjan2965@gmail.com) |
