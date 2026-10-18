@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 750" width="900" height="750">
+    <defs>
+        <linearGradient id="bg-light" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#E2E8F0" />
+            <stop offset="100%" stop-color="#CBD5E1" />
+        </linearGradient>
+        <filter id="shadow-light">
+            <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#000000" flood-opacity="0.15" />
+        </filter>
+    </defs>
+
+    <!-- Desktop Background -->
+    <rect width="900" height="750" fill="url(#bg-light)" />
+
+    <!-- Main IDE Window -->
+    <rect x="50" y="40" width="800" height="580" rx="12" fill="#FFFFFF" filter="url(#shadow-light)" stroke="#D1D5DB" stroke-width="1" />
+
+    <!-- Top Title Bar -->
+    <path d="M 50 52 a 12 12 0 0 1 12 -12 h 776 a 12 12 0 0 1 12 12 v 28 h -800 z" fill="#F3F4F6" />
+    <circle cx="75" cy="60" r="6" fill="#FF5F56" />
+    <circle cx="95" cy="60" r="6" fill="#FFBD2E" />
+    <circle cx="115" cy="60" r="6" fill="#27C93F" />
+    <text x="450" y="65" fill="#6B7280" font-family="&#39;SF Mono&#39;, Consolas, &#39;Courier New&#39;, monospace" font-size="13" text-anchor="middle">Workspace.java</text>
+
+    <!-- Line Highlight (Line 16) -->
+    <rect x="51" y="385" width="798" height="22" fill="#000000" fill-opacity="0.04" />
+
+    <!-- Code Content -->
+    <g font-family="&#39;SF Mono&#39;, Consolas, &#39;Courier New&#39;, monospace" font-size="14">
+        <!-- Line Numbers -->
+        <text x="95" y="100" fill="#9CA3AF" text-anchor="end">
+            <tspan x="95" dy="0">1</tspan>
+            <tspan x="95" dy="20">2</tspan>
+            <tspan x="95" dy="20">3</tspan>
+            <tspan x="95" dy="20">4</tspan>
+            <tspan x="95" dy="20">5</tspan>
+            <tspan x="95" dy="20">6</tspan>
+            <tspan x="95" dy="20">7</tspan>
+            <tspan x="95" dy="20">8</tspan>
+            <tspan x="95" dy="20">9</tspan>
+            <tspan x="95" dy="20">10</tspan>
+            <tspan x="95" dy="20">11</tspan>
+            <tspan x="95" dy="20">12</tspan>
+            <tspan x="95" dy="20">13</tspan>
+            <tspan x="95" dy="20">14</tspan>
+            <tspan x="95" dy="20">15</tspan>
+            <tspan x="95" dy="20">16</tspan>
+            <tspan x="95" dy="20">17</tspan>
+            <tspan x="95" dy="20">18</tspan>
+            <tspan x="95" dy="20">19</tspan>
+            <tspan x="95" dy="20">20</tspan>
+            <tspan x="95" dy="20">21</tspan>
+            <tspan x="95" dy="20">22</tspan>
+        </text>
+
+        <!-- Java Code -->
+        <text x="120" y="100" fill="#1F2937">
+            <tspan x="120" dy="0"><tspan fill="#0000FF">public class</tspan> <tspan fill="#267F99">Workspace</tspan> {</tspan>
+            <tspan x="120" dy="20"></tspan>
+            <tspan x="150" dy="20"><tspan fill="#0000FF">private static final</tspan> <tspan fill="#267F99">String</tspan> NAME = <tspan fill="#A31515">"Smruti Ranjan Nayak"</tspan>;</tspan>
+            <tspan x="150" dy="20"><tspan fill="#0000FF">private static final</tspan> <tspan fill="#267F99">String</tspan> ROLE = <tspan fill="#A31515">"Java and AI Developer"</tspan>;</tspan>
+            <tspan x="150" dy="20"><tspan fill="#0000FF">private static final</tspan> <tspan fill="#267F99">String</tspan> COLLEGE = <tspan fill="#A31515">"GIET University, B.Tech CSE"</tspan>;</tspan>
+            <tspan x="120" dy="20"></tspan>
+            <tspan x="150" dy="20"><tspan fill="#0000FF">private static final</tspan> <tspan fill="#267F99">String</tspan>[] SKILLS = {</tspan>
+            <tspan x="180" dy="20"><tspan fill="#A31515">"Java"</tspan>, <tspan fill="#A31515">"Python"</tspan>, <tspan fill="#A31515">"C"</tspan>, <tspan fill="#A31515">"SQL"</tspan>, <tspan fill="#A31515">"HTML"</tspan>, <tspan fill="#A31515">"CSS"</tspan>, <tspan fill="#A31515">"JavaScript"</tspan>,</tspan>
+            <tspan x="180" dy="20"><tspan fill="#A31515">"React.js"</tspan>, <tspan fill="#A31515">"Node.js"</tspan>, <tspan fill="#A31515">"Tailwind CSS"</tspan>, <tspan fill="#A31515">"Spring Boot"</tspan>, <tspan fill="#A31515">"Spring AI"</tspan>,</tspan>
+            <tspan x="180" dy="20"><tspan fill="#A31515">"Hibernate"</tspan>, <tspan fill="#A31515">"Servlet"</tspan>, <tspan fill="#A31515">"JDBC"</tspan>, <tspan fill="#A31515">"NumPy"</tspan>, <tspan fill="#A31515">"Pandas"</tspan>,</tspan>
+            <tspan x="180" dy="20"><tspan fill="#A31515">"scikit-learn"</tspan>, <tspan fill="#A31515">"OpenCV"</tspan>, <tspan fill="#A31515">"Matplotlib"</tspan>, <tspan fill="#A31515">"MySQL"</tspan>, <tspan fill="#A31515">"PostgreSQL"</tspan>,</tspan>
+            <tspan x="180" dy="20"><tspan fill="#A31515">"MongoDB"</tspan>, <tspan fill="#A31515">"Git"</tspan>, <tspan fill="#A31515">"GitHub"</tspan>, <tspan fill="#A31515">"Postman"</tspan>, <tspan fill="#A31515">"Power BI"</tspan>, <tspan fill="#A31515">"n8n"</tspan>, <tspan fill="#A31515">"Gemini"</tspan></tspan>
+            <tspan x="150" dy="20">};</tspan>
+            <tspan x="120" dy="20"></tspan>
+            <tspan x="150" dy="20"><tspan fill="#0000FF">public static void</tspan> <tspan fill="#795E26">main</tspan>(<tspan fill="#267F99">String</tspan>[] args) {</tspan>
+            <tspan x="180" dy="20"><tspan fill="#267F99">System</tspan>.out.<tspan fill="#795E26">println</tspan>(<tspan fill="#A31515">"Hi, I'm "</tspan> + NAME + <tspan fill="#A31515">", "</tspan> + ROLE + <tspan fill="#A31515">"."</tspan>);</tspan>
+            <tspan x="180" dy="20"><tspan fill="#267F99">System</tspan>.out.<tspan fill="#795E26">println</tspan>(<tspan fill="#A31515">"Studying at "</tspan> + COLLEGE);</tspan>
+            <tspan x="180" dy="20"><tspan fill="#0000FF">for</tspan> (<tspan fill="#267F99">String</tspan> skill : SKILLS) {</tspan>
+            <tspan x="210" dy="20"><tspan fill="#267F99">System</tspan>.out.<tspan fill="#795E26">println</tspan>(<tspan fill="#A31515">" - "</tspan> + skill);</tspan>
+            <tspan x="180" dy="20">}</tspan>
+            <tspan x="150" dy="20">}</tspan>
+            <tspan x="120" dy="20">}</tspan>
+        </text>
+    </g>
+
+    <!-- Bottom Status Bar -->
+    <path d="M 50 590 h 800 v 18 a 12 12 0 0 1 -12 12 h -776 a 12 12 0 0 1 -12 -12 z" fill="#F8FAFC" stroke="#D1D5DB" stroke-width="1" />
+    <text x="65" y="609" fill="#6B7280" font-family="&#39;SF Mono&#39;, Consolas, &#39;Courier New&#39;, monospace" font-size="12">Line 16, Column 9</text>
+    <text x="835" y="609" fill="#6B7280" font-family="&#39;SF Mono&#39;, Consolas, &#39;Courier New&#39;, monospace" font-size="12" text-anchor="end">Java UTF-8 LF</text>
+
+    <!-- Desktop App Dock -->
+    <rect x="300" y="650" width="300" height="70" rx="20" fill="#FFFFFF" fill-opacity="0.7" stroke="#E5E7EB" stroke-width="1" filter="url(#shadow-light)" />
+    <rect x="315" y="662" width="45" height="45" rx="12" fill="#0A84FF" />
+    <rect x="372" y="662" width="45" height="45" rx="12" fill="#30D158" />
+    <rect x="429" y="662" width="45" height="45" rx="12" fill="#FFD60A" />
+    <rect x="486" y="662" width="45" height="45" rx="12" fill="#BF5AF2" />
+    <rect x="543" y="662" width="45" height="45" rx="12" fill="#FF453A" />
+</svg>
